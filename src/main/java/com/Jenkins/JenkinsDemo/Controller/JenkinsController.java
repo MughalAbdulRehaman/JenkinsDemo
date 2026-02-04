@@ -9,6 +9,6 @@ public class JenkinsController {
 
     @RequestMapping("/hello")
     public String helloJenkins() {
-        return "Hello, Jenkins!";
+        return "Hello, Jenkins! Your Jenkins setup is successful.";
     }
 }
